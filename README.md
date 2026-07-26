@@ -18,3 +18,39 @@ Built using:
 - Streamlit
 - Pandas
 - Plotly Express
+
+
+# Week 10 – CO2 Emissions Dashboard
+
+## Live Demo
+🔗 [https://your-streamlit-app-link.streamlit.app](https://hhqj8re4mwl6kzcmenodcg.streamlit.app)
+
+## Overview
+This project is an interactive Streamlit dashboard for exploring global CO2 emissions data.
+
+Users can:
+- Filter data by region
+- Select one or more countries
+- Choose a year range
+- Switch between Total CO2 Emissions and CO2 per Capita
+- View the latest country rankings
+- Highlight the top emitting country
+
+## Technologies Used
+- Python
+- Streamlit
+- Pandas
+- Plotly Express
+
+## Dataset
+Source: Our World in Data
+
+## How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run lecture10_exercise.py
+```
+
+## Author
+Prudhvi
