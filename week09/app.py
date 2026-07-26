@@ -14,8 +14,12 @@ st.set_page_config(
 # -----------------------------
 # Load Data
 # -----------------------------
-df = pd.read_csv("/data/world_happiness_2023.csv")
+from pathlib import Path
 
+BASE_DIR = Path(__file__).parent
+DATA_FILE = BASE_DIR / "data" / "world_happiness_2023.csv"
+
+df = pd.read_csv(DATA_FILE)
 df.columns = [
     "Country",
     "Region",
