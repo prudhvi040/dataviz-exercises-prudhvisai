@@ -54,3 +54,45 @@ streamlit run lecture10_exercise.py
 
 ## Author
 Prudhvi
+
+
+
+# 🌍 Gapminder Dashboard – Week 11
+
+This project is a multi-page Streamlit dashboard built using the Gapminder dataset.
+
+## Live Demo
+
+🔗 [https://YOUR_STREAMLIT_LINK_HERE](https://dataviz-exercises-prudhvisai-pgsyw3mctm4g3caujdqpqd.streamlit.app)
+
+## Features
+
+- 📊 Overview page with dataset preview and GDP vs Life Expectancy visualization
+- 📈 Trends page to explore life expectancy over time for individual countries
+- 🔍 Compare page to compare life expectancy trends between two countries
+- 🚀 Multi-page navigation using Streamlit
+- ⚡ Shared data loading with caching for improved performance
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- Plotly Express
+
+## Project Structure
+
+```
+week11/
+│── app.py
+│── utils.py
+│── requirements.txt
+└── pages/
+    ├── 01_Overview.py
+    ├── 02_Trends.py
+    └── 03_Compare.py
+```
+
+## Author
+
+Prudhvi
