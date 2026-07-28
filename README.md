@@ -96,3 +96,62 @@ week11/
 ## Author
 
 Prudhvi
+
+
+
+
+# 🏠 Week 12 – London Airbnb Analytics Dashboard
+
+## Live Demo
+
+🔗 [https://YOUR-STREAMLIT-APP-LINK.streamlit.app](https://dataviz-exercises-prudhvisai-v8pgkbnzcpvbwxoe9t7zy7.streamlit.app)
+
+## Overview
+
+This project is an interactive Streamlit dashboard that explores the London Airbnb dataset.
+
+The dashboard includes:
+
+- 📊 Market Summary
+- 📍 Neighbourhood Drill-down
+- 🔥 Guest Demand Analysis
+
+## Features
+
+- Shared sidebar filters across all pages
+- Interactive Plotly visualisations
+- KPI cards
+- Persistent filters using Streamlit Session State
+- Responsive multi-page dashboard
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- Plotly Express
+
+## Project Structure
+
+```text
+week12/
+│── app.py
+│── utils.py
+│── requirements.txt
+│
+├── data/
+│   └── airbnb_london.csv
+│
+└── pages/
+    ├── 01_market.py
+    ├── 02_drilldown.py
+    └── 03_demand.py
+```
+
+## Dataset
+
+Source: Inside Airbnb
+
+## Author
+
+Prudhvi
